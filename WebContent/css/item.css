@@ -1,0 +1,41 @@
+.menu {
+  -webkit-align-content: stretch;
+  align-content:  space-around;
+  justify-content: space-around;
+  display:flex;
+  flex-flow: row wrap;
+  margin: 50px;
+  padding: 0;
+}
+
+.moji{
+	margin-top:50px;
+	width: 300px;
+	font-size:20px
+}
+
+.itemImage{
+	width:300px;
+	height:300px;
+}
+
+.menu li span{
+	font-size:20px;
+	magin:10px;
+}
+
+.moveWrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.buttom{
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	padding: 10px 30px;
+	margin: 10px 30px 0;
+    border-radius: 3px;
+    background-color: #4682b4;
+    color: #fff;
+}

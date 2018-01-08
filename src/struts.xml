@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="com.internousdev.shopbuy.action" extends="struts-default">
+
+	<!-- ItemAction-->
+		<action name="ItemAction" class="com.internousdev.shoplist.action.ItemAction" method="execute">
+			<result name="success">item.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+	<!-- MoreAction -->
+		<action name="MoreAction" class="com.internousdev.shoplist.action.MoreAction" method="execute">
+			<result name="success">more.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+	<!-- ReturnbuyAction -->
+		<action name="ReturnbuyAction" class="com.internousdev.shoplist.action.ReturnbuyAction" method="execute">
+			<result name="success">returnbuy.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+	<!-- CompleteAction -->
+		<action name="CompleteAction" class="com.internousdev.shoplist.action.CompleteAction" method="execute">
+			<result name="success">complete.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+
+	</package>
+</struts>

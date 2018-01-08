@@ -1,0 +1,39 @@
+
+.comment{
+	margin-left:420px;
+	color:#000;
+
+}
+
+h1{
+	margin-top:20px;
+	margin-left:370px;
+}
+
+.moji{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:100px;
+	padding: 50px;
+	height: max-content;
+	background-color:#E0FFFF;
+	font-size:20px;
+}
+.moji span{
+	margin-left:-15px;
+	padding:0;
+	display: block;
+	color:#000;
+	font-size:1.2em;
+}
+
+
+.itemImage{
+	width:400px;
+	height:400px;
+}
+.image{
+	margin-top:0px;
+	margin-right:0px;
+}
+

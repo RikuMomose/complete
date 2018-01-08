@@ -1,0 +1,46 @@
+.menu {
+   -webkit-align-content: stretch;
+	align-content:	center;
+	justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	margin-top:50px;
+}
+
+
+
+.moji{
+	margin-top:50px;
+	margin-left:0px;
+	margin-right:200px;
+	padding: 20.5px;
+	height: max-content;
+	background-color:#E0FFFF;
+	font-size:20px;
+
+}
+.moji span{
+
+	padding-top:40px;
+	display: block;
+	color:#000;
+	font-size:1.2em;
+}
+
+.itemImage{
+	width:400px;
+	height:400px;
+}
+.image{
+	margin-top:0px;
+	margin-right:0px;
+}
+
+.aa{
+	margin-left:200px;
+}
+
+.select{
+	text-decoration:none;
+	color:#000;
+}

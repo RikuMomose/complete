@@ -1,0 +1,51 @@
+.menu {
+  -webkit-align-content: stretch;
+	align-content:	center;
+	justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	margin-top:50px;
+
+}
+
+.moji{
+	margin-top:80px;
+	margin-left:0px;
+	margin-right:100px;
+	padding: 50px;
+	height: max-content;
+	background-color:#E0FFFF;
+	font-size:20px;
+}
+.moji span{
+	margin-left:-15px;
+	display: block;
+	color:#000;
+	font-size:1.2em;
+}
+
+.itemImage{
+	width:400px;
+	height:400px;
+}
+.image{
+	margin-top:90px;
+	margin-right:0px;
+}
+
+
+.moveWrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.buttom{
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	padding: 10px 30px;
+	margin: 10px 30px 0;
+    border-radius: 3px;
+    background-color: #4682b4;
+    color: #fff;
+}
